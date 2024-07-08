@@ -69,4 +69,5 @@ This dataset represents sales transactions from a business over a period of six 
   - Slicer 4: Years
 
 ## A Visual from the dashboard
-![image](https://github.com/HimanshuBaswal/Customer-Success-Dashboard/assets/74957804/f73729d7-5317-469f-a4e0-423d27b88253)
+![image](https://github.com/HimanshuBaswal/Customer-Success-Dashboard/assets/74957804/16a409cc-4738-4f41-9450-3eea51279671)
+
