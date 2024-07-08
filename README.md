@@ -1,6 +1,7 @@
 # Customer-Success-Dashboard
 
 ## Problem Statement:
+The Customer Success team currently lacks a centralized view of key customer health metrics, making it difficult to proactively identify and address potential issues that could lead to churn. How can we leverage customer success data to gain insights into sales performance, customer acquisition channels, delivery efficiency, customer satisfaction, and product trends to optimize business strategies and improve overall customer experience?
 
 ## About the Data:
 This dataset represents sales transactions from a business over a period of six days, starting from January 1, 2017, to January 6, 2017. The data includes information about customer acquisition, product details, sales performance, delivery performance, returns, and customer satisfaction.
@@ -67,5 +68,5 @@ This dataset represents sales transactions from a business over a period of six 
   - Slicer 3: Product
   - Slicer 4: Years
 
-## Insights & Major Takeways:
-
+## A Visual from the dashboard
+![image](https://github.com/HimanshuBaswal/Customer-Success-Dashboard/assets/74957804/f73729d7-5317-469f-a4e0-423d27b88253)
