@@ -68,6 +68,48 @@ This dataset represents sales transactions from a business over a period of six 
   - Slicer 3: Product
   - Slicer 4: Years
 
+## Insights:
+### Product 1
+#### 2017
+  - Return rate was ideal at 8%, On-time deliveries were 64% (9% below the standard).
+  - On-time delivery was lowest at 60% for Customer acquired from Ads.
+  - There was a dip in sales in Feb and Mar and then it fluctuated between 80k-125k throughout the year.
+  - All the customer acquistion types were nearly the same count.
+  - Customer satisfaction was 28% in low and very low.
+  - North Carolina was the best performing state (178K) and Mississippi was the lowest (142K).
+  - For orders from customers who were acquired by "Ads", Alabama generated the most sales (92K), and the customer satisfaction was 36% in the lower region.
+  - Florida had 38% lower customer satisfaction rate followed by Mississippi at 36%.
+
+#### 2018
+  - High Return rate at 11%, On-time deliveries were 68% (3% below the standard).
+  - High return rate for customers from ads at 13%.
+  - June and Sept saw the lowest sales around 66K.
+  - Customer satisfaction was 23% in lower region overall.
+  - Alabama was the best performing state (170K) and Georgia was lowest (147K).
+  - For orders from customers who were acquired by "Ads", Mississippi generated the most sales (60K), and the customer satisfaction was 15% in the lower region.
+  - For the same acquired type, Florida had a highest satisfaction rate at 38% in lower region.
+  - The State of Tennessee saw 16% returns while south carolina saw 2% returns.
+
+#### 2019
+  - Highest return rate at 13%. on time deliveries fell to 65%.
+  - Customer from ads and the returning ones had high product return rate around 14%.
+  - Sales fell to low range during february and remained slightly low for the next 2 months.
+  - Customer satisfaction was 23% in lower region overall.
+  - Georgia was the best performing state (170K) and Tennessee was lowest (108K).
+  - Tennessee customer had the highest customer satisfaction rate at 42% in the lower region, followed by Mississippi at 36% in lower region.
+  - Alabama saw the highest returns at 20%.
+  - Florida had 56% on time deliveries, followed by Alabama at 60%
+
+### Product 2
+
+### Product 3
+
+### Product 4
+
+### Product 5
+
 ## A Visual from the dashboard
 ![image](https://github.com/HimanshuBaswal/Customer-Success-Dashboard/assets/74957804/16a409cc-4738-4f41-9450-3eea51279671)
+
+
 
