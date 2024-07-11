@@ -127,7 +127,7 @@ This dataset represents sales transactions from a business over a period of six 
 
 #### 2019
   - This year had 11% return date and 70% On-time delivery rate.
-  - Throughout the year sales were low as 25K and only 3rd Quarter saw decent sales.
+  - Throughout the year sales were as low as 25K and only 3rd Quarter saw decent sales.
   - Mississippi generated 70K in sales followed by Flo rida at 66K.
   - 10% less customers returned this year.
   - Customers coming from ads type had higher return rate at 13%.
@@ -138,6 +138,47 @@ This dataset represents sales transactions from a business over a period of six 
   - Georgia saw 53% on time delivery for returning customers and Flo Rida had 21% return rate for the same type/,
 
 ### Product 3
+#### 2017
+  - This year fell short on On-time delivery rate at 67% and return rate at 11%.
+  - Sales remained low around 45k in the first 4 months of the year, went back to normal in the next few months but saw a dip in september.
+  - South Carolina generated the most sales at 112K followed by Flo Rida at 105k.
+  - Total Dissatisfaction rate was 37% overall this year.
+  - Of the total customers this year, 28% were returning, 33% were from ads, and 37% were from organic.
+  - Customers from organic reach returned at 14%.
+  - 60% of Returning customers got on time delivery of the product.
+  - Tennessee saw the 51% bad customer satisfaction rate where 59% of the customers had on time deliveries. South Carolina came second worst at 61% on time delivery.
+  - For Customers acquired from ads, mississippi customers had 18% return rate, Flo Rida and Tennessee both had 44% & 58% return rate respectively.
+  - Customers from organic reach in Tennessee had a dissatisfaction rate of 48%, they also had ontime delivery rate at 42% and 13% return rate.
+  - For Customers from organic reach, Georgia had only 48% on-time delivery rate, whereas south carolina had 61%.
+  - Returning customers in Georgia had 52% bad satisfaction rate, and Tennessee had 48% bad satisfaction rate (60% on-time delivery rate).
+  - Alabama, Florida, North Carolina and South Carolina had below 60% on-time delivery rate. Alabama also high return rate of 24%.
+    
+#### 2018
+  - This year fell short on On-time delivery rate at 66% and return rate at 10%.
+  - Sales were low mid year and the last 4 month of the year.
+  - Tennessee (which was the most dissatisfied state last year) had the most sales with 109K.
+  - Total Dissatisfaction rate was 27% (down from 37%) overall this year. 
+  - Of the total customers this year, 29%(+1) were returning, 32%(-1) were from ads, and 37% were from organic.
+  - Returning customers had high 15% return rate and 62% of them go on-time delivery.
+  - North Carolina had near 40% of the badly satisfied customers.
+  - For customers from Ads, Georgia had only 53% on-time delivery, and South Carolina had 59% on-time delivery. Alabama saw high return rate of 22% 
+  - Only 50% of the customers from Tennessee in the organic reach whereas, Georgia saw 16% return rate in this department.
+  - All states except Florida and Tennessee had high return rate (13% and above) and less than 58% on-time deliveries.
+  - It is also the returning customers from North Carolina who had over 50% bad satisfaction rate.
+    
+#### 2019
+  - This year perfect on-time delivery rate, but had 11% return rate.
+  - Sales were low for more than half of the year.
+  - All states except Georgia and North Carolina had high sales (>74K) this year.
+  - This year had only 333 customers (17% decrease from last year).
+  - Major decrease in customers from Ads (-28%) and Organic reach (-22%).
+  - Total Dissatisfaction rate was 23% (down from 37%) overall this year.
+  - Only returning customers saw 14% return rate and customers from ads had 12% return rate.
+  - Mississippi saw over 20% return rate for Customers acquired from ads. 
+  - South Carolina had over 50% bad customer satisfaction rate from ads customers.
+  - For customers from organic reach, Alabama had only 44% on-time delivery rate. For the same customers, Mississippi had 48% bad satisfaction rate.
+  - Returning users from Mississippi, South Carolina and Tennessee had 20% return rate.
+  - Only 44% customers from Georgia had on-time delivery rate only 59% from Alabama.
 
 ### Product 4
 
