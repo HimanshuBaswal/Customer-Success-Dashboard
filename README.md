@@ -22,32 +22,32 @@ This dataset represents sales transactions from a business over a period of six 
 ## Approach:
 
 ### Visual 1: Sales Line
-- **Technique:** Pivot Chart: Years and Date as Rows & Revenue for Values
+- **Technique:** Pivot Chart with Years and Date as Rows & Revenue for Values
 - **Data:** Revenue over the Years (Months)
 - **Chart:** Line Chart
 
 ### Visual 2: Sales Map
-- **Technique:** Pivot Chart: State as Columns & Revenue for Values
+- **Technique:** Pivot Chart with State as Columns & Revenue for Values
 - **Data:** Revenue by each State
 - **Chart:** Map Chart
 
 ### Visual 3: Delivery Performance Doughnut
-- **Technique:** Pivot Chart: Delivery Performance as Rows & Revenue (Count) for Values & Percentage of delayed orders
+- **Technique:** Pivot Chart with Delivery Performance as Rows & Revenue (Count) for Values & Percentage of delayed orders
 - **Data:** Delivery Performance Ratio (on-time and delayed)
 - **Chart:** Doughnut Chart & Percent of on-time delivered orders 
 
 ### Visual 4: Return Rate Doughnut
-- **Technique:** Pivot Chart: Return as Rows & Revenue (Count) for Values & Percentage of returned orders
+- **Technique:** Pivot Chart with Return as Rows & Revenue (Count) for Values & Percentage of returned orders
 - **Data:** Return Rate (no and yes)
 - **Chart:** Doughnut Chart & Percent of returned (yes) orders 
 
 ### Visual 5: Customer Acquisition Waterfall
-- **Technique:** Pivot Chart: Customer Acquisition Type as Columns & Revenue (Count) for Values
+- **Technique:** Pivot Chart with Customer Acquisition Type as Columns & Revenue (Count) for Values
 - **Data:** Customer Acquisition Type by Count
 - **Chart:** Waterfall Chart (Total is gray)
 
 ### Visual 6: Customer Satisfaction Bar
-- **Technique:** Pivot Chart: Customer Satisfaction as Columns, Product as Rows & Revenue (Count) for Values
+- **Technique:** Pivot Chart with Customer Satisfaction as Columns, Product as Rows & Revenue (Count) for Values
 - **Data:** Customer Satifaction levels (ordinal) by product (sorted descending)
 - **Chart:** Horizontal Stacked Bar Chart
 
@@ -71,121 +71,194 @@ This dataset represents sales transactions from a business over a period of six 
 ## Insights:
 ### Product 1
 #### 2017
-  - Return rate was ideal at 8%, On-time deliveries were 64% (9% below the standard).
-  - On-time delivery was lowest at 60% for Customer acquired from Ads.
-  - There was a dip in sales in Feb and Mar and then it fluctuated between 80k-125k throughout the year.
-  - All the customer acquistion types were nearly the same count.
-  - Customer satisfaction was 28% in low and very low.
+  - Return rate was ideal at 8%, with on-time deliveries at 64% (9% below the standard).
+  - On-time delivery was lowest at 60% for customers acquired from Ads.
+  - Sales dipped in February and March, fluctuating between 80k-125k throughout the year.
+  - All customer acquisition types had nearly the same count.
+  - Customer satisfaction was 28% in the low and very low categories.
   - North Carolina was the best performing state (178K) and Mississippi was the lowest (142K).
-  - For orders from customers who were acquired by "Ads", Alabama generated the most sales (92K), and the customer satisfaction was 36% in the lower region.
-  - Florida had 38% lower customer satisfaction rate followed by Mississippi at 36%.
+  - For orders from customers acquired by "Ads", Alabama generated the most sales (92K), with a customer satisfaction rate of 36% in the lower region.
+  - Florida had a 38% lower customer satisfaction rate, followed by Mississippi at 36%.
 
 #### 2018
-  - High Return rate at 11%, On-time deliveries were 68% (3% below the standard).
+  - High return rate at 11%, with on-time deliveries at 68% (3% below the standard).
   - High return rate for customers from ads at 13%.
-  - June and Sept saw the lowest sales around 66K.
-  - Customer satisfaction was 23% in lower region overall.
-  - Alabama was the best performing state (170K) and Georgia was lowest (147K).
-  - For orders from customers who were acquired by "Ads", Mississippi generated the most sales (60K), and the customer satisfaction was 15% in the lower region.
-  - For the same acquired type, Florida had a highest satisfaction rate at 38% in lower region.
-  - The State of Tennessee saw 16% returns while south carolina saw 2% returns.
+  - June and September saw the lowest sales around 66K.
+  - Customer satisfaction was 23% in the lower region overall.
+  - Alabama was the best performing state (170K) and Georgia was the lowest (147K).
+  - For orders from customers acquired by "Ads", Mississippi generated the most sales (60K), with a customer satisfaction rate of 15% in the lower region.
+  - For the same acquisition type, Florida had the highest satisfaction rate at 38% in the lower region.
+  - The State of Tennessee saw 16% returns while South Carolina saw 2% returns.
 
 #### 2019
-  - Highest return rate at 13%. on time deliveries fell to 65%.
-  - Customer from ads and the returning ones had high product return rate around 14%.
-  - Sales fell to low range during february and remained slightly low for the next 2 months.
-  - Customer satisfaction was 23% in lower region overall.
-  - Georgia was the best performing state (170K) and Tennessee was lowest (108K).
-  - Tennessee customer had the highest customer satisfaction rate at 42% in the lower region, followed by Mississippi at 36% in lower region.
+  - Highest return rate at 13%, with on-time deliveries falling to 65%.
+  - Customers from ads and returning ones had high product return rates around 14%.
+  - Sales fell to a low range during February and remained slightly low for the next two months.
+  - Customer satisfaction was 23% in the lower region overall.
+  - Georgia was the best performing state (170K) and Tennessee was the lowest (108K).
+  - Tennessee customers had the highest customer satisfaction rate at 42% in the lower region, followed by Mississippi at 36% in the lower region.
   - Alabama saw the highest returns at 20%.
-  - Florida had 56% on time deliveries, followed by Alabama at 60%.
-  - There was a dip the customers compared the previous two years around 11%.
+  - Florida had 56% on-time deliveries, followed by Alabama at 60%.
+  - There was a dip in customers compared to the previous two years, around 11%.
 
 ### Product 2
 #### 2017
-  - Return rate was high at 11%, On-time deliveries were perfect at 70%.
-  - Only customers acquired from ads saw 67% on time delivers whereas Organic and returning customers saw on time deliveries over the target.
-  - The first half of the year saw low sales around 35k, rest of the year saw 45K and nearby.
-  - Customers Returning (acquisition type) were low (123) which was because of low number in Mississippi, North Carolina, and Tennessee.
-  - South Carolina noticed bad customer satisfaction rate at 44%, but had 20% in the good region.
-  - Alabama saw only 40% on time deliveries for customers acquired through Ads and had a return rate of 20%.
-  - For all customers, Alabama saw 63% on time deliveries and return rate was high at 19%.
-  - Flo rida had the most sales at 82K, and Tennessee being the lowest at 47K.
-  - Alabama and Georgia both followed South Carolina for bad customer satisfaction rate at 38%
+  - Return rate was high at 11%, with on-time deliveries at 70%.
+  - Only customers acquired from ads saw 67% on-time deliveries, whereas Organic and Returning customers saw on-time deliveries above the target.
+  - The first half of the year saw low sales around 35K, while the rest of the year saw around 45K.
+  - Returning customers were low (123) due to low numbers in Mississippi, North Carolina, and Tennessee.
+  - South Carolina had a bad customer satisfaction rate at 44%, but 20% in the good region.
+  - Alabama saw only 40% on-time deliveries for customers acquired through Ads and had a return rate of 20%.
+  - For all customers, Alabama saw 63% on-time deliveries and a return rate of 19%.
+  - Florida had the most sales at 82K, and Tennessee was the lowest at 47K.
+  - Alabama and Georgia both followed South Carolina with a bad customer satisfaction rate at 38%.
 
 #### 2018
-  - High Return rate at 11%, On-time deliveries were 68% (3% below the standard).
-  - Mid year saw low sales around 25K-30K, while rest of the year saw around 35K-40K.
-  - Customers acquired were nearly the same for all the type. 
-  - Comparing to previous year, Customer from Organic type below 23% lower, and from Ads were 15% lower.
-  - We had 50 less customer than previous year.
-  - Customers from Ads had 14% return rate 6% more than acceptable.
-  - South Carolina generated the most sales at 72K followed by Tennessee at 68K, whereasa Mississippi and Alabama had below 50K sales.
-  - Georgia saw 15% return rate and Tennessee had 58% on time delivery rate.
-  - Customer acquired through Ads had 27% return rate in North Carolina followed by Georgia and Tennessee at 20% each.
-  - 50% and 55% of the customers saw on time delivery in Tennessee for Organic and Returning Customers.
+  - High return rate at 11%, with on-time deliveries at 68% (3% below the standard).
+  - Mid-year saw low sales around 25K-30K, while the rest of the year saw around 35K-40K.
+  - Customers acquired were nearly the same for all types.
+  - Compared to the previous year, Organic customer acquisition was 23% lower, and Ads were 15% lower.
+  - There were 50 fewer customers than the previous year.
+  - Customers from Ads had a 14% return rate, 6% more than acceptable.
+  - South Carolina generated the most sales at 72K, followed by Tennessee at 68K, whereas Mississippi and Alabama had below 50K sales.
+  - Georgia saw a 15% return rate and Tennessee had a 58% on-time delivery rate.
+  - Customers acquired through Ads had a 27% return rate in North Carolina, followed by Georgia and Tennessee at 20% each.
+  - Only 50% and 55% of the customers in Tennessee saw on-time delivery for Organic and Returning Customers.
 
 #### 2019
-  - This year had 11% return date and 70% On-time delivery rate.
-  - Throughout the year sales were as low as 25K and only 3rd Quarter saw decent sales.
-  - Mississippi generated 70K in sales followed by Flo rida at 66K.
-  - 10% less customers returned this year.
-  - Customers coming from ads type had higher return rate at 13%.
-  - Alabama, North Carolina, and South Carolina saw around 35% bad customer satisfaction rate.
-  - South Carolina had a high return rate at 20% followed by North Carolina at 16%.
-  - Customer from Ads saw only 56% on time delivery in Flo Rida and 28% return rate from South Carolina.
-  - Mississippi and North Carolina had 58% on time delivery for customer from Organic reach and North Carolina had 25% return rate for the same type.
-  - Georgia saw 53% on time delivery for returning customers and Flo Rida had 21% return rate for the same type/,
+  - This year had an 11% return rate and 70% on-time delivery rate.
+  - Throughout the year, sales were as low as 25K, and only the third quarter saw decent sales.
+  - Mississippi generated 70K in sales, followed by Florida at 66K.
+  - There were 10% fewer customers this year.
+  - Customers from Ads had a higher return rate at 13%.
+  - Alabama, North Carolina, and South Carolina saw around 35% bad customer satisfaction rates.
+  - South Carolina had a high return rate at 20%, followed by North Carolina at 16%.
+  - Customers from Ads saw only 56% on-time delivery in Florida and a 28% return rate from South Carolina.
+  - Mississippi and North Carolina had 58% on-time delivery for Organic customers, and North Carolina had a 25% return rate for the same type.
+  - Georgia saw 53% on-time delivery for Returning customers, and Florida had a 21% return rate for the same type.
 
 ### Product 3
 #### 2017
-  - This year fell short on On-time delivery rate at 67% and return rate at 11%.
-  - Sales remained low around 45k in the first 4 months of the year, went back to normal in the next few months but saw a dip in september.
-  - South Carolina generated the most sales at 112K followed by Flo Rida at 105k.
-  - Total Dissatisfaction rate was 37% overall this year.
-  - Of the total customers this year, 28% were returning, 33% were from ads, and 37% were from organic.
-  - Customers from organic reach returned at 14%.
-  - 60% of Returning customers got on time delivery of the product.
-  - Tennessee saw the 51% bad customer satisfaction rate where 59% of the customers had on time deliveries. South Carolina came second worst at 61% on time delivery.
-  - For Customers acquired from ads, mississippi customers had 18% return rate, Flo Rida and Tennessee both had 44% & 58% return rate respectively.
-  - Customers from organic reach in Tennessee had a dissatisfaction rate of 48%, they also had ontime delivery rate at 42% and 13% return rate.
-  - For Customers from organic reach, Georgia had only 48% on-time delivery rate, whereas south carolina had 61%.
-  - Returning customers in Georgia had 52% bad satisfaction rate, and Tennessee had 48% bad satisfaction rate (60% on-time delivery rate).
-  - Alabama, Florida, North Carolina and South Carolina had below 60% on-time delivery rate. Alabama also high return rate of 24%.
+  - On-time Delivery Rate: 67%
+  - Return Rate: 11%
+  - Sales Performance: Sales remained low around 45K in the first four months of the year, returned to normal levels in the following months, but saw a dip in September.
+  - Top Performing States:
+    - South Carolina: 112K
+    - Florida: 105K
+  - Customer Dissatisfaction Rate: 37%
+  - Customer Acquisition Breakdown:
+    - Returning Customers: 28%
+    - Ads Customers: 33%
+    - Organic Customers: 39%
+  - Customer Satisfaction (by Acquisition Type):
+    - Ads Customers: 45% had a lower satisfaction rate compared to Organic and Returning customers.
+  - Return Rates:
+    - Tennessee: 19%
+    - Florida: 15%
+  - On-time Delivery Rates (by Acquisition Type):
+    - Ads Customers:
+    - North Carolina: 53%
+    - South Carolina: 58%
+    - Tennessee: 60%
+  - Overall Customer Satisfaction:
+    - Tennessee: 70% dissatisfaction rate.
     
 #### 2018
-  - This year fell short on On-time delivery rate at 66% and return rate at 10%.
-  - Sales were low mid year and the last 4 month of the year.
-  - Tennessee (which was the most dissatisfied state last year) had the most sales with 109K.
-  - Total Dissatisfaction rate was 27% (down from 37%) overall this year. 
-  - Of the total customers this year, 29%(+1) were returning, 32%(-1) were from ads, and 37% were from organic.
-  - Returning customers had high 15% return rate and 62% of them go on-time delivery.
-  - North Carolina had near 40% of the badly satisfied customers.
-  - For customers from Ads, Georgia had only 53% on-time delivery, and South Carolina had 59% on-time delivery. Alabama saw high return rate of 22% 
-  - Only 50% of the customers from Tennessee in the organic reach whereas, Georgia saw 16% return rate in this department.
-  - All states except Florida and Tennessee had high return rate (13% and above) and less than 58% on-time deliveries.
-  - It is also the returning customers from North Carolina who had over 50% bad satisfaction rate.
+  - On-time Delivery Rate: 69%
+  - Return Rate: 12%
+  - Top Performing States:
+    - Alabama: 129K
+    - Georgia: 124K
+  - Return Rates:
+    - Tennessee: 18%
+    - Georgia: 16%
+  - On-time Delivery Rates (by Acquisition Type):
+    - Organic Customers: South Carolina had 50% on-time delivery.
+    - Ads Customers: North Carolina had a 29% return rate.
+  - Overall Customer Satisfaction (by Acquisition Type):
+    - Ads Customers: 16% return rate, 60% on-time delivery.
+  - State-wise Performance:
+    - Georgia: Worst customer satisfaction rate at 25%, 30% return rate.
+    - Florida: Least sales, 50% of sales were generated in the first five months.
     
 #### 2019
-  - This year perfect on-time delivery rate, but had 11% return rate.
-  - Sales were low for more than half of the year.
-  - All states except Georgia and North Carolina had high sales (>74K) this year.
-  - This year had only 333 customers (17% decrease from last year).
-  - Major decrease in customers from Ads (-28%) and Organic reach (-22%).
-  - Total Dissatisfaction rate was 23% (down from 37%) overall this year.
-  - Only returning customers saw 14% return rate and customers from ads had 12% return rate.
-  - Mississippi saw over 20% return rate for Customers acquired from ads. 
-  - South Carolina had over 50% bad customer satisfaction rate from ads customers.
-  - For customers from organic reach, Alabama had only 44% on-time delivery rate. For the same customers, Mississippi had 48% bad satisfaction rate.
-  - Returning users from Mississippi, South Carolina and Tennessee had 20% return rate.
-  - Only 44% customers from Georgia had on-time delivery rate only 59% from Alabama.
+  - On-time Delivery Rate: 72%
+  - Return Rate: 10%
+  - Sales Performance: Sales were steady throughout the year.
+  - Top Performing States:
+    - Mississippi: 125K
+    - Florida: 65K (least sales)
+  - Customer Satisfaction Rate: 28%
+  - Sales Change: 10% decrease compared to last year.
+  - On-time Delivery Rates:
+    - Florida: 57%
+    - North Carolina: 58%
+  - State-wise Customer Satisfaction:
+    - South Carolina: Highest satisfaction rate at 35%.
+  - Customer Acquisition Breakdown:
+    - Ads Customers: 67%
+    - Organic Customers: 25%
+    - Returning Customers: 8%
+  - Return Rates:
+    - Ads Customers: Tennessee 20%, North Carolina 18%.
+  - Overall Satisfaction (by Acquisition Type):
+    - Florida: 45% bad satisfaction rate.
+    - North Carolina: 35% bad satisfaction rate.
 
-### Product 4
+## Summary:
 
-### Product 5
+### Sales Performance
+
+#### Overall Trends
+  - Revenue Growth: Sales showed fluctuations across the years, with notable dips in mid-2017 and mid-2018, while 2019 saw more stable but lower overall sales.
+  - Seasonal Trends: Sales were typically lower in the first quarter and peaked towards the year-end.
+  - Top Performing States:
+    - South Carolina: Consistently high sales across all years.
+    - Florida: Steady performance with high sales in 2017 and 2018.
+    - Alabama and Georgia: Significant contributors, especially in 2018.
+
+#### Customer Acquisition Channels
+  - Returning Customers: Steady but lower in number compared to new acquisitions.
+  - Ads Customers: High acquisition rate but often accompanied by higher return rates.
+  - Organic Customers: Showed better satisfaction and retention but lower sales volume compared to Ads Customers.
+
+### Delivery Performance
+#### On-time Delivery Rates
+  - 2017: 67% overall, with the highest rates in South Carolina and Alabama.
+  - 2018: Slight improvement to 69%, but significant variances between states.
+  - 2019: Achieved a higher rate of 72%, showing consistent improvement.
+
+#### Delays and Challenges
+  - Common Issues: High variability in delivery performance across states, with North Carolina and Florida often underperforming.
+  - Top Performers: Mississippi and South Carolina consistently had better on-time delivery rates.
+
+### Return Rates
+#### Overall Trends
+  - 2017: Return rates were around 11% across all products.
+  - 2018: Slight increase to 12%, with notable spikes in Tennessee and Georgia.
+  - 2019: Return rates stabilized at 10%, with improvements seen in Mississippi and South Carolina.
+#### By Customer Acquisition
+  - Ads Customers: Higher return rates across all years, indicating potential issues with product fit or expectations.
+  - Organic and Returning Customers: Lower return rates, suggesting better alignment with customer needs.
+
+### Customer Satisfaction
+#### Satisfaction Levels
+  - 2017: Overall dissatisfaction rate was 37%, with Tennessee having the highest dissatisfaction.
+  - 2018: Improved to 27%, with notable reductions in dissatisfaction in Georgia and North Carolina.
+  - 2019: Further improvement to 23%, with South Carolina showing the highest satisfaction rates.
+#### Key Insights
+  - Product Fit: Ads Customers had higher dissatisfaction and return rates, indicating a need for better-targeted marketing and product information.
+  - State Performance: States like South Carolina and Alabama consistently performed better in terms of customer satisfaction, while North Carolina and Tennessee often lagged.
+
+### Strategic Insights and Recommendations
+   - Focus on High-Performing States: Leverage the success in South Carolina and Alabama to implement best practices across other states.
+   - Improve Ads Customer Experience: Address the higher return and dissatisfaction rates among Ads Customers by refining marketing strategies and setting clearer expectations.
+   - Enhance Delivery Efficiency: Continue improving on-time delivery rates, particularly in underperforming states like North Carolina and Florida.
+   - Boost Organic Acquisition: Invest in organic growth strategies to increase the proportion of satisfied and loyal customers.
+   - Monitor Seasonal Trends: Prepare for seasonal dips in sales by implementing targeted promotions and inventory management strategies during low-sales periods.
 
 ## A Visual from the dashboard
-![image](https://github.com/HimanshuBaswal/Customer-Success-Dashboard/assets/74957804/16a409cc-4738-4f41-9450-3eea51279671)
+![image](https://github.com/HimanshuBaswal/Customer-Success-Dashboard/assets/74957804/17944d6d-4c4d-4f64-b8bf-310de7368978)
 
 
 
